@@ -1,0 +1,3 @@
+What is Domain?
+
+Definition: Domain is we can say that a Particular Name of Address that required for Hosting of Any Website or web Application on Live Server. 

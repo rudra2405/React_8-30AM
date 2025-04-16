@@ -1,0 +1,4 @@
+What is FTP protocol?
+
+Definition: FTP stands for file transfer protocol which used to transfer particular files from one device to another devide it is majorly called standerd network protocol.
+

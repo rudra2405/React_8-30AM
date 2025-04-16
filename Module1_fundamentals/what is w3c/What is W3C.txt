@@ -1,0 +1,3 @@
+What is W3C?
+
+Definition: W3C stands for world wide web consortium, where member organizations, staff, and the public collaborate to create web standards for both web pages and the web of data. 

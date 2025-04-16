@@ -1,0 +1,4 @@
+What is HTTP Protocol?
+
+
+definition: HTTP stands for hyper text markup language is a Protocol used for send request of data to web server from wen browser(client).

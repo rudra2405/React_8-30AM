@@ -1,0 +1,4 @@
+What is POP protocol?
+
+
+Definition: POP stands for post office protocol it is used to Downloads emails from the server to your device and deletes them from the server also store emails offline.

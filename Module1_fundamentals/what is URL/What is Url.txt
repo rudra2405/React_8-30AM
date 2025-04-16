@@ -1,0 +1,5 @@
+What is URL?
+
+defintion: URL full form is Uniform resource Locator is Works as Web address and used to Identify any address of resources like Document, Images, Videos or Websites.
+
+example: WWW.Google.com is address of google website.

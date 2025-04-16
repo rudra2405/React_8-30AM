@@ -1,0 +1,13 @@
+What is IP_address?
+
+
+IP_address definition: simple meaning of IP address is a Address which can used to track specific device on netwotk. it is 32 bit address.
+
+example: 192.0.2.1 
+
+
+
+what is IP_config?
+
+
+definition:  IP config is nothing but a process of provide deatil information about your device on network by configuration of IP address.

@@ -1,0 +1,8 @@
+What is Github?
+
+
+Definition: Github is defined as Repository of Projects or websites where we can upload any static website using Git Version control system. 
+
+=> Github pages is hosting service provide by Github
+
+=> Github is also Open source.

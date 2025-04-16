@@ -1,0 +1,4 @@
+What is mime protocol?
+
+
+Definition: MIME is short for Multipurpose Internet Mail Extensions. It is used to enhance the capability of Internet e-mail protocols like SMTP. The MIME protocol enables users to communicate many forms of digital information via email, such as images, audio, video, and other types of documents and files.

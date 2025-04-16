@@ -1,0 +1,3 @@
+What is Web server?
+
+Definition: Simple Meaning of Web Server is Where we make HTTP client request of Multiple Web Pages and that Store data and make response of that web pages that is called web server.

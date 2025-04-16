@@ -1,0 +1,11 @@
+
+What is website?
+
+Definition: website is collection of Web pages and specific domain where information is accesible through the internet.
+
+
+Types of Website->
+
+1) Static Website- static website means website content that doesn't change much through development and built with basic html,css and plain JS, it content delivers directly from server to browser without any processing, it stays stable within page.
+
+2) Dynamic Website- Dynamic website means it changes real time in some part during time of development and it needs more database and server side management because user often visits more dynamic site.

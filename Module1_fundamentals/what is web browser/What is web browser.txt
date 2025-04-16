@@ -1,0 +1,5 @@
+What is Web browser?
+
+definition: simple definition of web browser is that Web browser work as client who recive response from server side to display data so that user can easily find through internet.
+
+Example: Google chrome, Mozila firefox, safari, Interent Explorer.

@@ -1,0 +1,10 @@
+What is Localhost?
+
+
+definition: Localhost is called local server where we run application like IP address local host address is also called IP address.
+
+
+localhost_IP?
+
+definition: Localhost IP refers to the IP address 127.0.0.1, which points back to your own computer.
+

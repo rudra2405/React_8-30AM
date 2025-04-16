@@ -1,0 +1,3 @@
+What is HTTPs?
+
+definition: Https is stands for hypertext transfer protocol secure which means that securely sends data between web browser and web sever by request.

@@ -1,0 +1,3 @@
+What is www?
+
+definition: WWW stand for World wide Web, Simple meaning of WWW is to make group of web pages accessible over the internet using http protocol, we can say that it is like Web address of group of webpages that we can search it through web browser.
