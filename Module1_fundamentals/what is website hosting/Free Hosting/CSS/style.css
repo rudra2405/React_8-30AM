@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(212, 207, 207);
+}
+
+input[type="text"]
+{
+/* width: 100%; */
+/* height: auto; */
+padding: 20px;
+outline:none;
+border:none;
+background-color: rgb(252, 251, 251);
+font-size: 30px;
+text-align: right;
+color: black !important;
+font-weight: bold;   
+}
+
+
+#btn{
+  width:19%;
+  padding:25px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: -3px -3px 5px 1px rgb(129, 123, 123);
+}
+
+#btn0{
+  width:10%;
+  padding:15px;
+  font-weight: lighter;
+}
+#btn1{
+  width:10%;
+  padding:15px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+  #btn{
+    width:18%;
+    padding:15px;
+    text-align: center;
+  }
+
+  #btn1{
+    width:15%;
+    padding:17px;
+  }
+  
+}
+

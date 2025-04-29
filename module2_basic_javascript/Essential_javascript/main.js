@@ -1,0 +1,1 @@
+document.writeln('My name is Rudra');
