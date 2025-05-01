@@ -1,0 +1,87 @@
+// sass operatror (+ , - , * , / , %)
+// sass variables ($)
+// sass nesting : nesting is used to used section within another sections nesting 
+// sass mixin : sass mixin is used to reused code one element to another element
+
+
+@mixin txtprob1 {
+  color: $txt-warning;
+  font-size: 5rem + 6rem;
+}
+
+@mixin txtprob2 {
+  color: $txt-warning;
+  font-size: 1rem + 2rem;
+}
+
+@mixin txtprob3 {
+  color: $txt-dark;
+  font-size: 5rem + 6rem;
+}
+
+@mixin txtprob4 {
+  color: $txt-white;
+  font-size: 3rem + 2rem;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$bg-primary : rgb(180, 180, 204);
+$bg-success : green;
+$bg-danger: red;
+$bg-dark : rgb(131, 21, 21);
+$bg-white : #fff;
+$bg-warning : yellow;
+$txt-dark: black;
+$txt-warning: yellow;
+$txt-white: white;
+
+
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: $bg-primary;
+}
+
+
+.main_header {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  background-color: $bg-dark;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  color: $txt-white;
+  font-size: 3rem + 4rem;
+}
+
+&&h1 {
+  @include txtprob1;
+}
+
+&& h1:hover {
+  @include txtprob3;
+}
+
+p {
+  @include txtprob2;
+
+  &:hover {
+    @include txtprob4;
+    transition: 1s ease-in-out;
+  }
+}
+
+
+// & p:hover {
+//   @include txtprob4;
+//   transition: 1s all ease;
+// }
