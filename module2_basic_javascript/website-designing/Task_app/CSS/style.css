@@ -1,0 +1,75 @@
+body{
+  background-color:rgb(149, 193, 231); 
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+.navbar-links
+{
+width: 100%;
+height: auto;    
+}
+.navbar-links li 
+{
+display: inline-block;
+padding: 0px 25px;    
+list-style-type: none;    
+}
+.navbar-links a 
+{
+color: white;
+text-decoration: none;
+
+}
+
+.cartApp_1{
+  display: none !important;
+}
+
+.navbar-brand{
+  display: none !important;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:580px)
+{
+  .container{
+    width:100% !important;
+    height:auto;
+  }
+
+.cartApp, .callUs, .image{
+  display: none !important;
+}
+
+.navbar-brand{
+  display: block !important;
+}
+
+.navbar-links li 
+{
+display: block;
+padding: 10px 5px;    
+list-style-type: none;    
+}
+
+
+.cartApp_1{
+  display: block !important;
+margin-left: 0 !important;
+width:20%;
+height:auto;
+}
+
+.container{
+  padding:10px !important;
+  margin-top: 20px !important;
+
+}
+.container h1{
+  font-size: 25px;
+}
+}
+

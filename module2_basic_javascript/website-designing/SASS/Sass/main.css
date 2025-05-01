@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: rgb(180, 180, 204);
+}
+
+.main_header {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  background-color: rgb(131, 21, 21);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  color: white;
+  font-size: 7rem;
+}
+
+h1 {
+  color: yellow;
+  font-size: 11rem;
+}
+h1:hover {
+  color: black;
+  font-size: 11rem;
+}
+
+p {
+  color: yellow;
+  font-size: 3rem;
+}
+p:hover {
+  color: white;
+  font-size: 5rem;
+  transition: 1s ease-in-out;
+}/*# sourceMappingURL=main.css.map */
