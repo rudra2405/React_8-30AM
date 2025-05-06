@@ -20,24 +20,21 @@ body {
   justify-content: center;
   margin-top: 5%;
   color: white;
-  font-size: 7rem;
+  font-size: 5rem;
 }
-
-h1 {
+.main_header h1 {
   color: yellow;
-  font-size: 11rem;
 }
-h1:hover {
+.main_header h1:hover {
   color: black;
   font-size: 11rem;
+  transition: 2s ease all;
 }
-
-p {
+.main_header p {
   color: yellow;
-  font-size: 3rem;
 }
-p:hover {
+.main_header p:hover {
   color: white;
-  font-size: 5rem;
-  transition: 1s ease-in-out;
+  font-size: 11rem;
+  transition: 2s ease all;
 }/*# sourceMappingURL=main.css.map */

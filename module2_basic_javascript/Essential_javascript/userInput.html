@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+
+    function display() {
+      var a = parseInt(document.getElementById('a').value);
+      var b = parseInt(document.getElementById('b').value);
+      var c = a + b;
+      document.getElementById('text').innerHTML = "Addition of Two numbers is :" + c + "\n";
+      document.getElementById('btn').style = 'display:none';
+      document.getElementById('text').style = 'color:red;font-size:45px;transition:2s ease All';
+    }
+
+    function display1() {
+      document.getElementById('img').src = 'Images/image1.jpg'
+    }
+    function display2() {
+      document.getElementById('img').src = 'Images/image2.jpg';
+    }
+
+    function display3() {
+      document.querySelector("h3").style = "background-color:red;color:white";
+      document.querySelector("#para").style = "background-color:green;color:white";
+      document.querySelector(".para1").style = "background-color:coral;color:white";
+    }
+
+  </script>
+
+
+  <center>
+    <p id="text"></p>
+
+    <h3>this is element </h3>
+    <p id="para">This is id selector</p>
+    <p class="para1">this is class selector</p>
+
+    <button type="button" id='' onclick="display3()">Click me</button>
+
+    <form>
+      <input type="text" id="a" placeholder="enter value"><br><br>
+      <input type="text" id="b" placeholder="enter value"><br><br>
+
+      <button type="button" id='btn' onclick="display()">Add Value</button>
+
+    </form>
+
+    <img src='Images/image1.jpg' width="400" height="400" id='img' onmouseenter="display1()" onmouseleave="display2()"
+      src="" alt="">
+
+
+
+  </center>
+</body>
+
+</html>

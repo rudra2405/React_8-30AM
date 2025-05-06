@@ -6,12 +6,10 @@
 
 @mixin txtprob1 {
   color: $txt-warning;
-  font-size: 5rem + 6rem;
 }
 
 @mixin txtprob2 {
   color: $txt-warning;
-  font-size: 1rem + 2rem;
 }
 
 @mixin txtprob3 {
@@ -21,7 +19,7 @@
 
 @mixin txtprob4 {
   color: $txt-white;
-  font-size: 3rem + 2rem;
+  font-size: 5rem + 6rem;
 }
 
 
@@ -60,28 +58,24 @@ body {
   justify-content: center;
   margin-top: 5%;
   color: $txt-white;
-  font-size: 3rem + 4rem;
-}
+  font-size: 2rem + 3rem;
 
-&&h1 {
-  @include txtprob1;
-}
 
-&& h1:hover {
-  @include txtprob3;
-}
+  & h1 {
+    @include txtprob1;
+  }
 
-p {
-  @include txtprob2;
+  & h1:hover {
+    @include txtprob3;
+    transition: 2s ease all;
+  }
 
-  &:hover {
+  & p {
+    @include txtprob2;
+  }
+
+  & p:hover {
     @include txtprob4;
-    transition: 1s ease-in-out;
+    transition: 2s ease all;
   }
 }
-
-
-// & p:hover {
-//   @include txtprob4;
-//   transition: 1s all ease;
-// }

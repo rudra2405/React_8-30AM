@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.bill {
+  width: 70%;
+  height: auto;
+  margin: 50px auto;
+}
+
+#btn {
+  width: 20%;
+  padding: 7px 10px;
+  background-color: rgb(110, 104, 104);
+  border: none;
+  color: azure;
+}
