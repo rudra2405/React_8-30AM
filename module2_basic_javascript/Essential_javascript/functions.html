@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <script>
+
+    function Rudra() {
+      var name = 'my name is rudra';
+      // document.write(name);
+      console.log(name);
+    }
+    Rudra();
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+    //global variable//
+    let name = 'jkl';
+    function Rudra2() {
+      let name = 'rudra';
+      console.log(name);
+    }
+    Rudra();
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+    //return statement
+    function Rudra() {
+      var name = 'my name is rudra';
+      // document.write(name);
+      return name;
+    }
+    console.log(Rudra());
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    ////////pass argument | pass parameter
+    function Add(a, b) {
+      return a + b;
+    }
+    console.log(Add(10, 20));
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+    function rudra(name) {
+      console.log(name);
+    }
+    rudra('Rudra');
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+    //
+    // a) user defined function : which function defined by user i.e called user defined function 
+
+
+    function userDefined() {
+      var a = 10;
+      var b = 20;
+      var c = a * b;
+      // console.log('Multiplication is :' + c);
+      return c;
+    }
+    console.log(userDefined());
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+    // b) pre-defined function : which is already defined by systems i.e called pre-defined functions 
+
+    // call by value
+
+    function mult(a, b) {
+      var c = a * b;
+      return c;
+    }
+    console.log(mult(10, 3));
+
+
+    // call by refrence
+
+    function refrence(nm, sname, lname) {
+      var name = 'my name is :' + nm + "\n";
+      var surname = 'my surname is :' + sname + '\n';
+      var lastname = 'my lastname is :' + lname + '\n';
+      console.log(name + surname + lastname);
+    }
+    refrence('rudra', 'hirdekar', 'kamlesh');
+
+    //simple interest//
+
+    var p = 20000;
+    var n = 2;
+    var r = 3;
+
+    function Si() {
+      var res = (p * r * n) / 100;
+      return res;
+    }
+    console.log(Si());
+
+  </script>
+</body>
+
+</html>

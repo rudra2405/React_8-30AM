@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function display() {
+      var a = parseInt(prompt(('Enter number 1')));
+      var b = parseInt(prompt(('Enter number 2')));
+      var c = a + b;
+      document.write('Addition is :' + c);
+      // console.log('Addition is :' + c);
+    }
+
+    function display1() {
+      var a = parseInt(document.getElementById('a').value);
+      var b = parseInt(document.getElementById('b').value);
+      var c = a + b;
+      document.getElementById("para").innerHTML = "The additions of numbers is :" + c;
+    }
+  </script>
+
+  <button type="button" onclick="display()">Add here</button>
+
+  <p id="para"></p>
+
+  <input type="text" id="a" placeholder="Enter number 1"><br><br>
+  <input type="text" id='b' placeholder="Enter number 2"><br><br>
+
+  <button onclick="display1()">Click here</button>
+</body>
+
+</html>
