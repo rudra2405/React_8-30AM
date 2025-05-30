@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <script>
+
+    //condition must be true in if//
+
+    let a = 10;
+    let b = 20;
+    if (a < b) {
+      console.log('a is grater than b')
+    }
+
+
+    //condition must be true in if and if condition is false then it is else//
+
+    let number = 10;
+    if (number > 10) {
+      console.log('number is bigger')
+    }
+
+    else {
+      console.log('number is not bigger');
+    }
+
+    // nested if/////////////////////////////////////////////////////////////////////////////////////
+
+    let c = 30;
+    let d = 20;
+    if (c > d) {
+
+      if (a != 0 && b != 0) {
+        console.log('c is grater than d and both are positive numbers');
+      }
+    }
+
+    else {
+      console.log('c is less than d');
+    }
+
+
+    //if-else-if////////////////////////////////////////////////////////////////////////////////////
+    // (for checking multiple true condition)
+
+    let number1 = 10;
+    let number2 = 10;
+
+    if (number1 > number2) {
+      console.log('number1 is bigger');
+    }
+
+    else if (number2 > number1) {
+      console.log('number 2 is bigger');
+    }
+
+    else {
+      console.log('both numbers are equal');
+    }
+
+
+    //w.a.p to check max number among 3 numbers//
+
+    let a1 = 10;
+    let a2 = 25;
+    let a3 = 25;
+
+
+    if (a1 > a2 && a1 > a3) {
+      console.log('a1 is max number');
+    }
+
+    else if (a2 > a3) {
+      console.log('a2 is max number');
+    }
+
+    else if (a3 > a1 && a3 > a2) {
+      console.log('a3 is max number :' + a3);
+    }
+
+    else {
+      console.log('something went wrong please check again');
+    }
+
+
+    //switch case//(for universel truth) is used to check true condition where we create case if condition is false then default is executed//
+
+    let x = 'D';
+    switch (x) {
+      case 'A':
+        console.log('i am a topper');
+        break;
+
+      case 'B':
+        console.log(' i am passed');
+        break;
+
+
+      case 'C':
+        console.log(' i am failed');
+        break;
+
+      default:
+        console.log('please contact with admin');
+        break; //break not needed here, if you write then also good but there is no need//
+    }
+
+
+
+    //w.a.p to check odd even program////////////////////////////
+
+    function display() {
+      var number = document.getElementById('num').value;
+      if (number % 2 == 0) {
+        // alert('Number is even');
+        // Swal.fire("this number is even");  //using sweetalert library//
+        Swal.fire({
+          title: "The number is even?",
+          text: "yes number is even",
+          icon: "success"
+        });
+      }
+      else {
+        // alert('number is odd');
+        // Swal.fire("this number is odd");
+        Swal.fire({
+          title: "The number is odd?",
+          text: "yes number is odd",
+          icon: "failed"
+        });
+
+      }
+    }
+
+  </script>
+
+  <div class='w-50 mx-auto shadow p-5 mt-4'>
+    <h2>Odd even number check</h2>
+    <form>
+      <input type='text' id='num' placeholder='Enter number' class='form-control' />
+      <button type='button' onclick="display()" class='btn btn-md btn-dark mt-3'>Add</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

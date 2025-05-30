@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+<script>
+
+</script>
 
 <body>
 
@@ -21,22 +24,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
     //global variable//
-    let name = 'jkl';
+    var name;
     function Rudra2() {
-      let name = 'rudra';
+      var name = 'ABC';
       console.log(name);
     }
-    Rudra();
+    Rudra2();
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
     //return statement
-    function Rudra() {
-      var name = 'my name is rudra';
+    function Rudra3() {
+      var name = 'xyz';
       // document.write(name);
       return name;
     }
-    console.log(Rudra());
+    console.log(Rudra3());
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -47,13 +50,17 @@
     }
     console.log(Add(10, 20));
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////
 
     function rudra(name) {
       console.log(name);
     }
     rudra('Rudra');
 
+
+    function rudra2(name) {
+      return name;
+    }
+    console.log(rudra2('rudra'));
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -86,12 +93,17 @@
     // call by refrence
 
     function refrence(nm, sname, lname) {
-      var name = 'my name is :' + nm + "\n";
+      var firstname = 'my name is :' + nm + "\n";
       var surname = 'my surname is :' + sname + '\n';
       var lastname = 'my lastname is :' + lname + '\n';
       console.log(name + surname + lastname);
+      // var fullName = name + surname + lastname;
+      // return fullName;
+      // console.log(fullName);
     }
-    refrence('rudra', 'hirdekar', 'kamlesh');
+    // console.log(refrence('rudra', 'hirdekar', 'kamlesh'));
+    refrence('rudra', 'patil', 'kamlesh');
+
 
     //simple interest//
 
@@ -104,6 +116,12 @@
       return res;
     }
     console.log(Si());
+
+
+
+    console.log(10 + 'hello');
+    //console.log(10 + 'hello');
+    console.log(10.25 + parseInt('10'));
 
   </script>
 </body>

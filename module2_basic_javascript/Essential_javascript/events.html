@@ -8,14 +8,31 @@
 </head>
 
 <body>
+  <button type="button" id="btn">Addition with event listner</button>
+
+  <p id="para"></p>
+
+  </div>
+
   <script>
+
+    document.getElementById('btn').addEventListener('mouseover', function () {
+      let a = parseInt(prompt('enter number 1'));
+      let b = parseInt(prompt('enter number 2'));
+      let c = a + b;
+      document.getElementById("para").innerHTML = "The additions of numbers is :" + c;
+      document.getElementById('para').style.backgroundColor = 'red';
+    })
+
+
     function display() {
       var a = parseInt(prompt(('Enter number 1')));
       var b = parseInt(prompt(('Enter number 2')));
       var c = a + b;
       document.write('Addition is :' + c);
-      // console.log('Addition is :' + c);
+      console.log('Addition is :' + c);
     }
+
 
     function display1() {
       var a = parseInt(document.getElementById('a').value);
@@ -23,16 +40,27 @@
       var c = a + b;
       document.getElementById("para").innerHTML = "The additions of numbers is :" + c;
     }
+
+    // document.getElementById('btn').addEventListener('click', display1);
+
   </script>
 
-  <button type="button" onclick="display()">Add here</button>
 
-  <p id="para"></p>
+  <button type="button" onclick="display()">Addition with function</button>
+
+
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
 
   <input type="text" id="a" placeholder="Enter number 1"><br><br>
   <input type="text" id='b' placeholder="Enter number 2"><br><br>
-
   <button onclick="display1()">Click here</button>
+  <!-- <button ondblclick="display1()">Click here</button> -->
+  <!-- <button onmouseover="display1()">Click here</button> -->
+
+
+
+
 </body>
 
 </html>

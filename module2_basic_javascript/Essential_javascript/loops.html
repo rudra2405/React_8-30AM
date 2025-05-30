@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    //////////////for loop///////////////////////////////////////////////////
+    // let i;
+    // for (i = 0; i < 6; i++) {
+    //   document.write(i, '<br>');
+    // }
+
+    // ////////////nested for loop//////////////////////////////////
+    // for (let i = 1; i <= 5; i++) {
+
+    //   for (let j = 1; j <= i; j++) {
+    //     document.write('* ');
+    //   }
+
+    //   document.write('<br>');
+    // }
+
+    // /////while loop with break/////////////////////////
+    // let i = 1;
+    // while (i <= 10) {
+    //   if (i == 5) {
+    //     break;
+    //   }
+    //   console.log(i);
+    //   i++;
+    // }
+
+    // //while loop with continue//////////
+    // let i = 1;
+    // while (i <= 10) {
+
+    //   if (i == 5) {
+    //     i++;
+    //     continue;
+    //   }
+    //   console.log(i);
+    //   j++;
+
+    // }
+
+
+    // //do while loop////
+    // let k = 1;
+    // do {
+    //   console.log(k);
+    //   k++;
+    // }
+    // while (k <= 10)
+
+
+
+    // //  for loop with continue statement/////////////////////////// 
+    // for (let i = 0; i <= 10; i++) {
+
+    //   if (i == 5) {
+    //     continue;
+    //   }
+
+    //   console.log(i);
+    // }
+
+    // for (let i = 0; i <= 10; i++) {
+
+    //   if (i == 2 || i == 3 || i == 7) {
+    //     continue;
+    //   }
+    //   console.log(i);
+
+    // }
+
+    // //  for loop with break statement/////////////////////////// 
+    // for (let i = 0; i <= 10; i++) {
+
+    //   if (i == 5) {
+    //     break;
+    //   }
+
+    //   console.log(i);
+    // }
+
+
+
+
+    //Map method of array and also Methods of how many ways to declare arrow function in js/////////////////
+    let Employee = ["brijesh", "jimil", "jay", "kaushik", "himanshu"];
+    let Salary = Employee.map((emp) => {        //first way with {} bracket and return 
+      return emp + ':' + 50000;
+    });
+    console.log(Salary);
+
+    let employee = ["brijesh", "jimil", "jay", "kaushik", "himanshu"];
+    let salary = employee.map((emp) => (emp + ': ' + 50000));   //second way//
+    let salary1 = employee.map((emp) => emp + ': ' + 50000);    //third way//
+    let salary2 = employee.map(emp => (emp + ': ' + 50000));    //fourth way//
+    let salary3 = employee.map(emp => emp + ': ' + 50000);     //fifth way//
+    console.log(salary);
+    console.log(salary1);
+    console.log(salary2);
+    console.log(salary3);
+
+
+    let salary5 = employee.map(display);
+    function display(emp) {
+      console.log(emp);
+    }
+
+
+
+    //filter method//
+
+
+    // let numbers = ['rudra', 'kishan', 'jay', 'harry', 'fernandis'];
+
+    // let newArray = numbers.filter((num) => {
+    //   return num.length > 5;
+    // })
+    // console.log(newArray);
+
+
+    //for-each method//
+    // let arr = [1, 2, 3];
+    // arr.forEach((name) => {
+    //   console.log(name);
+    // })
+
+    // arr.forEach(display);
+    // function display(name) {
+    //   console.log(name);
+    // }
+
+
+
+    ///spread operator to maintain array immutability/////
+    // let array1 = ['1', '2', '3'];
+    // let array2 = ['3', '4', '5'];
+    // console.log([...array1, ...array2]);
+  </script>
+</body>
+
+</html>
