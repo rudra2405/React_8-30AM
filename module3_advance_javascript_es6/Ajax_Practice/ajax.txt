@@ -1,2 +1,2 @@
-AJAX is a technique that allows web pages to communicate with the server in the background without reloading the whole page.
+AJAX is a technique that allows web pages to communicate with the server in the background without reloading the whole page and only part of web page is updated.
 
