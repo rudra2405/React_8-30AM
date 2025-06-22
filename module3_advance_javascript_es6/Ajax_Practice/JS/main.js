@@ -1,23 +1,13 @@
-
-
-
-
 function load_data() {
+  // $("#content").load("ajax.txt");
 
-  $("#content").load("ajax.txt")
+  let companyVal = $("#CompanyList").val();
 
-  let companyVal = $('#CompanyList').val();
-
-  if (companyVal == '1') {
-    $('#EmployeeList').load('/Tops.html');
+  if (companyVal == "1") {
+    $("#EmployeeList").load("../Tops.html");
+  } else if (companyVal == "2") {
+    $("#EmployeeList").load("../Infosys.html");
+  } else {
+    $("#EmployeeList").load("../HCL.html");
   }
-
-  else if (companyVal == '2') {
-    $('#EmployeeList').load('/Infosys.html');
-  }
-
-  else {
-    $('#EmployeeList').load('/HCL.html');
-  }
-
 }

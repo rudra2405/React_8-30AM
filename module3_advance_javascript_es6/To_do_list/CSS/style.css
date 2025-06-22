@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+ol li{
+  font-size: 15px;
+  cursor: pointer;
+  list-style-type: none;
+  user-select: none;
+  padding: 15px 15px;
+  font-weight: bold;
+  position: relative;
+}
+
+
+ol li::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    right: 100%;
+    border: 1px solid black;
+}
+
+ol li.checked::before{
+    background-image: url(../Images/checked.png);
+}
+
+ol li span{
+  position: absolute;
+  right:0;
+  top:8px;
+}
+
+ol li span button{
+ color:white;
+ border-radius: 10px;
+ background-color: tomato;
+ padding:5px 10px;
+ border:none;
+ outline:none;
+}
+
+

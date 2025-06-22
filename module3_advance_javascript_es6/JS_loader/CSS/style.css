@@ -1,0 +1,21 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+
+#loader{
+  width:350px;
+  height:350px;
+  background: url('../Images/ZZ5H.gif') no-repeat;
+  background-size: cover;
+  background-position: center;
+  top:15%;
+  left:40%;
+  position: absolute;
+}
+
+#mainContent{
+  display: none;
+}
