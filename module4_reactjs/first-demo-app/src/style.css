@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.react-app{
+   width:100%;
+   height:auto;
+   margin:0 auto;
+   padding:40px;
+   background-color: rgb(148, 216, 216);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.calc-app{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding: 25px;
+  margin-top: 5%;
+}
+
+/* .calc-app:hover{
+  background-color: white;
+  color:black;
+  transition: 2s ease-in-out;
+} */
+
+.calc-app h1{
+  font-size : 20px !important
+}
+
+
+.fade-in{
+  animation: 2s infinite fadeIn !important;
+}
