@@ -1,0 +1,110 @@
+{
+  "about-us": [
+    {
+      "id": 1,
+      "title": "Our Mission",
+      "content": "We are a company dedicated to providing the best services to our customers.",
+      "name": "John Doe",
+      "role": "CEO",
+      "photo": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "socialLinks": {
+        "facebook": "https://facebook.com/ru.hirdekar24",
+        "twitter": "https://twitter.com/rudrahirdekar_2",
+        "linkedin": "https://linkedin.com/in/rudrahirdekar"
+      }
+    }
+  ],
+  "contact-us": [
+    {
+      "id": 1,
+      "name": "Jane Smith",
+      "email": "b@gmail.com",
+      "phone": "+1234567890",
+      "state": "California",
+      "center" : "Los Angeles",
+      "message": "Looking forward to hearing from you!"
+    }
+  ],
+   "our-courses": [
+    {
+      "id": 1,
+      "title": "Web Development Bootcamp",
+      "description": "We offer top-notch web development services to help you build your online presence.",
+      "price": "$1000",
+      "duration": "4 weeks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSHMK0GpTCLI3HsquC4NyhPnd-eUW06I5b7Q&s"
+    }   
+   ],
+
+   "our-centers": [
+    {
+      "id": 1,
+      "name": "Tech Hub",
+      "location": "123 Tech Street, Silicon Valley, CA",
+      "description": "A state-of-the-art facility equipped with the latest technology to foster innovation.",
+      "image": "https://example.com/tech-hub.jpg"
+    }
+  ],
+  "our-team": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "role": "Lead Developer",
+      "photo": "https://example.com/alice.jpg",
+      "socialLinks": {
+        "facebook": "https://facebook.com/alicejohnson",
+        "twitter": "https://twitter.com/alicejohnson",
+        "linkedin": "https://linkedin.com/in/alicejohnson"
+      }
+    }
+  ],
+  "franchise": [
+    {
+      "id": 1,
+      "title": "Join Our Franchise",
+      "description": "Become a part of our growing franchise network and enjoy the benefits of our established brand.",
+      "requirements": [
+        "Minimum investment of $50,000",
+        "Experience in the industry",
+        "Commitment to our values"
+      ]
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "The Future of Technology",
+      "content": "Technology is evolving at a rapid pace, and we are here to keep you updated with the latest trends.",
+      "author": "Bob Brown",
+      "date": "2023-10-01",
+      "image": "https://example.com/future-tech.jpg"
+    }
+  ],
+  "placements": [
+    {
+      "id": 1,
+      "companyName": "Tech Solutions Inc.",
+      "position": "Software Engineer",
+      "location": "San Francisco, CA",
+      "date": "2023-09-15",
+      "description": "We are looking for talented software engineers to join our team."
+    }
+  ],
+  "FAQs" : [
+    {
+      "id": 1,
+      "question": "What services do you offer?",
+      "answer": "We offer a wide range of services including web development, mobile app development, and digital marketing."
+    },
+    {
+      "id": 2,
+      "question": "How can I contact you?",
+      "answer": "You can contact us via our contact form or email us at"
+    },
+    {
+      "id": 3,
+      "question": "What are your business hours?",
+      "answer": "Our business hours are Monday to Friday, 9 AM to 5 PM."
+    }
+  ]
+}

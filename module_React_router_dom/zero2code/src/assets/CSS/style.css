@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+.dashboard-card {
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 20px rgba(14, 0, 0, 0.3);
+}
+
+
+.sidebar-links .nav-link:hover{
+  color: #075314 !important;
+}
+
+ul li .nav-link{
+  position:relative;
+}
+
+ul li .nav-link:hover{
+  color:yellow !important;
+}
+
+ul li .nav-link::before{
+  height:2px;
+  position:absolute;
+  content:'';
+  width:0%;
+  bottom:10px;
+  left:0;
+  background-color: yellow;
+  transition: width 0.3s ease-in-out;
+}
+
+ul li .nav-link:hover:before{
+  width:100%;
+}
+
+@media (max-width: 575.98px) {
+
+ul li .nav-link:hover:before{
+  width:25%;
+}
+
+}
+
+
+.rudra{
+  z-index: -1;
+}
+
+.rudra2{
+  z-index: -2;
+}
+
+.rudra-3{
+    background-image: url('https://statics.myclickfunnels.com/image/1747320/file/5227210c6e29dea1b9e1939a9fa56cc4.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll; /* or 'fixed' if you want a parallax effect */
+  width: 100%;
+  height: auto;
+  min-height: 400px; /* Adjust as needed */
+
+}
+
+#Rudra input::placeholder{
+  color:black;
+}
+
+#Rudra input{
+  user-select: none;
+  outline: none;
+}
