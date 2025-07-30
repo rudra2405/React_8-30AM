@@ -1,0 +1,22 @@
+$bg-danger : red;
+$bg-success : green;
+$bg-warning: yellow;
+$bg-primary : blue;
+$bg-black : black;
+$bg-white : white;
+$width : 80%;
+
+
+$txt-primary : blue;
+$txt-black : black;
+$txt-white : white;
+
+
+.app{
+  width : $width;
+  height:auto;
+  background-color: $bg-danger;
+  color: $txt-black;
+  margin:0 auto;
+  padding: 20px;
+}
