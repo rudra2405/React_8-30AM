@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": "7bb6",
+      "taskName": "React task",
+      "assignTo": "Rudra",
+      "addedDate": "2025-08-31",
+      "status": "Completed"
+    },
+    {
+      "id": "af59",
+      "taskName": "laravel task",
+      "assignTo": "kishan",
+      "addedDate": "2025-08-30",
+      "status": "Not Completed"
+    },
+    {
+      "id": "849e",
+      "taskName": "Node Js Task",
+      "assignTo": "Jay",
+      "addedDate": "2025-08-28",
+      "status": "Not Completed"
+    },
+    {
+      "id": "65a3",
+      "taskName": "swssdfgd",
+      "assignTo": "kishan",
+      "addedDate": "2025-09-25",
+      "status": "Completed"
+    },
+    {
+      "id": "2e37",
+      "taskName": "Task 5",
+      "assignTo": "Rudra",
+      "addedDate": "2025-09-01",
+      "status": "Not Completed"
+    }
+  ],
+  "Assign-to": [
+    {
+      "id": "1",
+      "name": "Rudra"
+    },
+    {
+      "id": "2",
+      "name": "kishan"
+    },
+    {
+      "id": "3",
+      "name": "Jay"
+    }
+  ]
+}

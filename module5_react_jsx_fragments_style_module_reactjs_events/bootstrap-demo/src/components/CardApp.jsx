@@ -22,7 +22,7 @@ export default function CardApp() {
           </CardBody>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <img src={slider1} className="card-img-top" alt="..." />
+          <img src={slider2} className="card-img-top" alt="..." />
           <CardBody>
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
@@ -35,7 +35,7 @@ export default function CardApp() {
           </CardBody>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <img src={slider1} className="card-img-top" alt="..." />
+          <img src={slider3} className="card-img-top" alt="..." />
           <CardBody>
             <h5 className="card-title">Card title</h5>
             <p className="card-text">

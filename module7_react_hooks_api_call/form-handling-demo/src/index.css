@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-image: linear-gradient(rgba(3, 54, 35, 0.5), rgba(19, 8, 85, 0.5)),url('./assets/Images/img.jpg');;
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:100%;
+  width:100%;
+}
+
+
+.form-container{
+  box-shadow: 5px 5px 5px white;
+}
+
+.form-group{
+  position:relative
+}
+
+.form-group i{
+  position:absolute;
+  top:25%;
+  left:12px;
+  /* transform:translateY(-50%); */
+  color: greenyellow;
+}
+
+.form-group input{
+  box-shadow: 5px 5px 10px white;
+  outline:none;
+}
+
+.form-group input::placeholder{
+  color:white;
+  font-weight: light;
+}
