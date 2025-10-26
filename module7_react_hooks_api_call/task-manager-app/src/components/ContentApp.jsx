@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaTasks, FaEdit, FaTrash } from "react-icons/fa";
+import { FaEdit, FaTrash } from "react-icons/fa";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function ContentApp() {
   const [Data, setData] = useState([]);
+  const navigate = useNavigate();
 
   //fetch data//
   useEffect(() => {
@@ -11,7 +13,7 @@ export default function ContentApp() {
       .get("http://localhost:3001/tasks")
       .then((res) => setData(res.data))
       .then((err) => console.log(err));
-  }, []);
+  });
 
   //using fetch api//
   // useEffect(() => {
@@ -51,40 +53,53 @@ export default function ContentApp() {
         </h2>
         <hr className="w-150" />
         <table className="table-auto w-full overflow-x-auto mt-10">
-          <tr className="text-left">
-            <th>TaskName</th>
-            <th>Assign to</th>
-            <th>Added Date</th>
-            <th>Status</th>
-            <th>Action</th>
-          </tr>
-          {Data.map((data, id) => {
-            return (
-              <tr key={id} className="text-left">
-                <td>{data.taskName}</td>
-                <td>{data.assignTo}</td>
-                <td>{data.addedDate}</td>
-                <td>{data.status}</td>
-                <td>
-                  <button
-                    className="text-green-700 text-xl p-2 me-1"
-                    onClick={() => handleEdit(data)}
+          <thead>
+            <tr className="text-left">
+              <th>TaskName</th>
+              <th>Assign to</th>
+              <th>Added Date</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Data.map((data) => {
+              return (
+                <tr key={data.id} className="text-left">
+                  <td>{data.taskName}</td>
+                  <td>{data.assignTo}</td>
+                  <td>{data.addedDate}</td>
+                  <td
+                    className={`p-2 ${
+                      data.status === "Completed"
+                        ? "text-green-900 bg-green-200"
+                        : "text-red-900 bg-red-200"
+                    }`}
                   >
-                    <FaEdit />
-                  </button>
-                  |
-                  <button
-                    className="text-red-700 text-xl p-2 ms-1"
-                    onClick={() => {
-                      handleDelete(data.id);
-                    }}
-                  >
-                    <FaTrash />
-                  </button>
-                </td>
-              </tr>
-            );
-          })}
+                    {data.status}
+                  </td>
+                  <td>
+                    <button
+                      className="text-green-700 text-xl p-2 me-1"
+                      onClick={() => handleEdit(data)}
+                    >
+                      <FaEdit />
+                    </button>
+                    |
+                    <button
+                      className="text-red-700 text-xl p-2 ms-1"
+                      onClick={() => {
+                        // navigate(`/delete-task/${data.id}`);
+                        return handleDelete(data.id);
+                      }}
+                    >
+                      <FaTrash />
+                    </button>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
         </table>
       </div>
     </>

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Form } from "react-bootstrap";
+// import { Form } from "react-bootstrap";
 
 export default function Controlled() {
   const [data, setData] = useState({
-    Name: "rudra",
-    Email: "rudra@gmail.com",
+    Name: "",
+    Email: "",
   });
 
   const submitForm = (e) => {

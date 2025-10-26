@@ -23,7 +23,7 @@ import OurCourses from "./components/user/pages/OurCourses.jsx";
 import Centers from "./components/user/pages/Centers.jsx";
 import Placements from "./components/user/pages/Placements.jsx";
 import Franshise from "./components/user/pages/Franshise.jsx";
-import Blog from "./components/user/pages/Blog.jsx";
+// import Blog from "./components/user/pages/Blog.jsx";
 import Contact from "./components/user/pages/Contact.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>

@@ -1,7 +1,7 @@
 import React from "react";
 import avtar from "./assets/Images/img_avatar2.png";
 
-function Children({ children }) {
+function Child({ children }) {
   return (
     <div className="card mt-5 mx-auto" style={{ width: "18rem" }}>
       {children}
@@ -23,13 +23,15 @@ function Children({ children }) {
 export default function Parent() {
   return (
     <>
-      <Children>
-        <img src={avtar} alt="Avatar" className="card-img-top img-fluid" />
-        <div className="card-body p-3">
-          <h1 className="">Children Component</h1>
-          <p>This is a child component that can receive props.</p>
-        </div>
-      </Children>
+      <section>
+        <Child>
+          <img src={avtar} alt="Avatar" className="card-img-top img-fluid" />
+          <div className="card-body p-3">
+            <h1 className="">Children Component</h1>
+            <p>This is a child component that can receive props.</p>
+          </div>
+        </Child>
+      </section>
     </>
   );
 }

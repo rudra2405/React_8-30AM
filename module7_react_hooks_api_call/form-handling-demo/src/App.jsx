@@ -73,16 +73,16 @@ function App() {
         text: "Your form is submitted",
       });
       console.log(formData);
+      setFormData({
+        firstName: "",
+        lastName: "",
+        Email: "",
+        phoneNumber: "",
+        password: "",
+        confirmPassword: "",
+      });
+      setErrors({}); // 👈 clear error messages
     }
-    setFormData({
-      firstName: "",
-      lastName: "",
-      Email: "",
-      phoneNumber: "",
-      password: "",
-      confirmPassword: "",
-    });
-    setErrors({}); // 👈 clear error messages
   };
 
   return (
@@ -94,7 +94,7 @@ function App() {
         <form className="d-flex flex-column gap-5" onSubmit={handleSubmit}>
           <h3 className="text-center text-white">Form Handling Demo</h3>
           <div className="form-group">
-            <i class="bi bi-person-fill"></i>
+            <i className="bi bi-person-fill"></i>
             <input
               type="text"
               name="firstName"
@@ -108,7 +108,7 @@ function App() {
             <span className="text-danger fw-bold">{errors.firstName}</span>
           )}
           <div className="form-group">
-            <i class="bi bi-person-fill"></i>
+            <i className="bi bi-person-fill"></i>
 
             <input
               type="text"
@@ -123,7 +123,7 @@ function App() {
             <span className="text-danger fw-bold">{errors.lastName}</span>
           )}
           <div className="form-group">
-            <i class="bi bi-envelope"></i>
+            <i className="bi bi-envelope"></i>
             <input
               type="email"
               name="Email"
@@ -137,7 +137,7 @@ function App() {
             <span className="text-danger fw-bold">{errors.Email}</span>
           )}
           <div className="form-group">
-            <i class="bi bi-telephone-fill"></i>
+            <i className="bi bi-telephone-fill"></i>
             <input
               type="number"
               name="phoneNumber"
@@ -170,7 +170,7 @@ function App() {
             <span className="text-danger fw-bold">{errors.password}</span>
           )}
           <div className="form-group">
-            <i class="bi bi-eye-fill"></i>
+            <i className="bi bi-eye-fill"></i>
             <input
               type="password"
               name="confirmPassword"

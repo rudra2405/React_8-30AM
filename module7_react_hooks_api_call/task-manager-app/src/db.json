@@ -1,38 +1,17 @@
 {
   "tasks": [
     {
-      "id": "7bb6",
-      "taskName": "React task",
+      "id": "6c19",
+      "taskName": "dghjkjh",
       "assignTo": "Rudra",
-      "addedDate": "2025-08-31",
+      "addedDate": "2025-09-15",
       "status": "Completed"
     },
     {
-      "id": "af59",
-      "taskName": "laravel task",
-      "assignTo": "kishan",
-      "addedDate": "2025-08-30",
-      "status": "Not Completed"
-    },
-    {
-      "id": "849e",
-      "taskName": "Node Js Task",
-      "assignTo": "Jay",
-      "addedDate": "2025-08-28",
-      "status": "Not Completed"
-    },
-    {
-      "id": "65a3",
-      "taskName": "swssdfgd",
-      "assignTo": "kishan",
-      "addedDate": "2025-09-25",
-      "status": "Completed"
-    },
-    {
-      "id": "2e37",
-      "taskName": "Task 5",
+      "id": "e0d3",
+      "taskName": "ghkjlk",
       "assignTo": "Rudra",
-      "addedDate": "2025-09-01",
+      "addedDate": "2025-10-31",
       "status": "Not Completed"
     }
   ],

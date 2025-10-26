@@ -15,7 +15,7 @@ export default function AddTask() {
       .get("http://localhost:3001/Assign-to")
       .then((res) => setUser(res.data))
       .catch((err) => console.log(err));
-  }, []);
+  });
 
   const navigate = useNavigate();
 
